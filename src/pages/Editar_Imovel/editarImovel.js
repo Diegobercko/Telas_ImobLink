@@ -44,7 +44,7 @@ const EditarImovel = () => {
                                 <Maximize/>
                             </TouchableOpacity>
 
-                            <Modal visible={modalIsOpen} animationType="fade" transparent={true}>
+                            <Modal >
                                 <ModelImage/>
                             </Modal>
                     
