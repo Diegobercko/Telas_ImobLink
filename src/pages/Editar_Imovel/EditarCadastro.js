@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, ImageBackground, StyleSheet, TouchableOpacity, Modal, } from 'react-native';
+import { View, Text, ImageBackground, StyleSheet, TouchableOpacity, Modal, } from 'react-native-web';
 import Checkbox from '../../Components/CheckBox/CheckBox';
 import { ActionModal } from '../../Components/Modal/Teste'
 import { FormAvanc } from '../../Components/Formularios/FormEdicaoAvancada'

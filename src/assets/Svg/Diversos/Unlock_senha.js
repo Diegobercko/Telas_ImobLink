@@ -3,7 +3,7 @@ import { View, TouchableOpacity } from 'react-native'
 
 const SenhaUser = () => {
   return(
-    <View style={{ marginLeft:8 }}>
+    <View style={{ paddingHorizontal: 13 }}>
 
 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.0146 11.2263H5.01465C3.91008 11.2263 3.01465 12.1217 3.01465 13.2263V20.2263C3.01465 21.3308 3.91008 22.2263 5.01465 22.2263H19.0146C20.1192 22.2263 21.0146 21.3308 21.0146 20.2263V13.2263C21.0146 12.1217 20.1192 11.2263 19.0146 11.2263Z" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

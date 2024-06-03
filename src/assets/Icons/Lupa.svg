@@ -4,7 +4,7 @@
     <style>
       .cls-1 {
         fill: #090a0a;
-        fill-rule: evenodd;
+        fillRule: evenodd;
         strokeWidth: 0px;
       }
     </style>

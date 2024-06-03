@@ -1,3 +1,4 @@
+
 import { StatusBar } from 'expo-status-bar';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { ImageBackground, TouchableOpacity } from 'react-native-web';

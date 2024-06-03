@@ -14,7 +14,7 @@ import PhoneInput from '../../../components/phoneInput/phoneInput';
 import CpfInput from '../../../components/cpfInput/cpfInput';
 import RgInput from '../../../components/rgInput/rgInput';
 
-import ButtonVoltar from '../../../assets/Svg/Buttons/BntVoltar';
+import ButtonVoltar from '../../../assets/Svg/Buttons/Bnt_Voltar';
 import LogoBackground from '../../../assets/Svg/Logo/Logobackground';
 
 

@@ -11,7 +11,7 @@ import ToastService from '../../../Services/ToastService';
 import ApiService from '../../../Services/ApiService';
 import AuthService from '../../../Services/AuthService';
 
-import ButtonVoltar from '../../../assets/Svg/Buttons/BntVoltar';
+import ButtonVoltar from '../../../assets/Svg/Buttons/Bnt_Voltar';
 import LogoBackground from '../../../assets/Svg/Logo/Logobackground';
 
 const CadastroImobiliaria = () => {

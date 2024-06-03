@@ -8,14 +8,24 @@ import ApiService from '../Services/ApiService';
 import AuthService from '../Services/AuthService';
 import { useEffect } from 'react';
 import ToastService from '../Services/ToastService';
-import ButtonVoltar from '../assets/Svg/Buttons/BntVoltar';
+
+import ButtonVoltar from '../assets/Svg/Buttons/Bnt_Voltar';
 import LogoCompleto from '../assets/Svg/Logo/Logo_Full';
 import PessoaUser from '../assets/Svg/Diversos/User_pessoa';
 import SenhaUser from '../assets/Svg/Diversos/Unlock_senha';
 
+import Icon from 'react-native-vector-icons/MaterialIcons'; // Você pode usar qualquer conjunto de ícones
+
 
 
 const Login = () => {
+
+
+  const [secureTextEntry, setSecureTextEntry] = useState(true);
+
+  const togglePasswordVisibility = () => {
+    setSecureTextEntry(!secureTextEntry);
+  };
 
   const navigation = useNavigation();
   const [user, setUser] = useState('');
@@ -140,10 +150,15 @@ const Login = () => {
           <TextInput
             style={styles.Input}
             value={senha}
-            onChangeText={(text) => { setSenha(text) }}
-            secureTextEntry={true}
+            onChangeText={(text) => setSenha(text)}
+            secureTextEntry={secureTextEntry}
             placeholder="Senha"
           />
+
+          <TouchableOpacity onPress={togglePasswordVisibility} style={styles.icon_eye}>
+            <Icon name={secureTextEntry ? "visibility-off" : "visibility"} size={24} color="grey" />
+          </TouchableOpacity>
+        
         </View>
 
         <Botao labelbutton="Logar" aoclicar={RealizarLogin} />
@@ -200,6 +215,7 @@ const styles = StyleSheet.create({
     fontWeight: '800',
     borderLeftWidth: 1,
     paddingLeft: 10,
+    paddingRight: 35,
     alignItems: 'center',
     justifyContent: 'center',
     borderColor: "#000",
@@ -207,8 +223,9 @@ const styles = StyleSheet.create({
     opacity: 0.5,
 
   },
-  space_logo: {
-
+  icon_eye: {
+    position:'relative',
+    left: -30
   }
 
 });

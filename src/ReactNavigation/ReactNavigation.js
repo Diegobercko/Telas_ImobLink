@@ -23,6 +23,7 @@ import Perfil from "../pages/Perfil";
 import EditarPerfil from "../pages/EditarPerfil"; 
 import Tutorial from "../pages/Tutorial";
 import ImagensImovel from "../pages/ImagensImovel"
+import Routes from "../routes";
 
 
 const Stack = createNativeStackNavigator();
@@ -33,6 +34,11 @@ export default function MyStack() {
     <NavigationContainer>
 
       <Stack.Navigator>
+      <Stack.Screen
+          name="TabBar"
+          component={Routes}
+          options={{ title: "TabBar", headerShown: false }}
+        />
         <Stack.Screen
           name="LoginECadastro"
           component={LoginECadastro}

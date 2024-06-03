@@ -70,7 +70,9 @@ const FAQItem = ({ question, answer }) => {
 // Componente FAQList
 const FAQList = () => {
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView
+    showsHorizontalScrollIndicator={false} 
+    style={styles.container}>
       {faqs.map(faq => (
         <FAQItem key={faq.id} question={faq.question} answer={faq.answer} />
       ))}
