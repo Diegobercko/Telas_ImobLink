@@ -10,9 +10,9 @@ import ToastService from '../../Services/ToastService';
 import AuthService from '../../Services/AuthService';
 import ModalTelaPrincipal from '../../components/modalTelaPrincipal/ModalTelaPrincipal';
 import BarraDePesquisa from '../../components/Pesquisa/BarraDePesquisa';
-import ButtonMenu from '../../assets/Svg/Buttons/Bnt_Menu';
 import ButtonVoltar from '../../assets/Svg/Buttons/Bnt_Voltar';
 import LogoBackground from '../../assets/Svg/Logo/Logobackground';
+import MeusImoveis from '../../Components/Modal/Dados_Meus_Imoveis'
 
 const AcessoMeusImoveis = () => {
   const navigation = useNavigation();
@@ -60,6 +60,8 @@ const AcessoMeusImoveis = () => {
 
   return (
     <View style={styles.container}>
+
+      
       <ImageBackground
         source={require('../../assets/Images/BackGround/Back_Cadastrar.png')}
         style={styles.backgraud_image}
@@ -71,6 +73,8 @@ const AcessoMeusImoveis = () => {
         </TouchableOpacity>
 
         <Text style={styles.titulo}>Meus Imoveis</Text>
+
+        <MeusImoveis/>
       </ImageBackground>
 
 
@@ -83,6 +87,7 @@ const AcessoMeusImoveis = () => {
         <CardImovel key={key} imovel={imovel} />
       )
       )}
+       
     </View>
   );
 }

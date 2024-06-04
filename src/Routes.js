@@ -82,7 +82,7 @@ export default function Routes() {
         options={{
           headerShown: false,
           tabBarIcon: ({ size, color }) => (
-            <FontAwesome5 name="question" size={size} color={color} />
+            <FontAwesome5 name="question" size={21} color={color} />
           )
         }}
 
