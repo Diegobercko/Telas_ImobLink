@@ -17,7 +17,6 @@ export default function Routes() {
   return (
     <Tab.Navigator
       screenOptions={{
-
         tabBarStyle: {
           backgroundColor: '#202020',
           borderTopColor: 'transparent',
@@ -27,7 +26,6 @@ export default function Routes() {
         tabStyle: {
           paddinBottom: 5,
           paddingTop: 5,
-
         }
 
       }}

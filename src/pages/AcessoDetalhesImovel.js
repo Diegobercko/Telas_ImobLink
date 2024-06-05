@@ -2,7 +2,7 @@ import react from "react";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { View, Text, StyleSheet, Image, ScrollView, Pressable } from 'react-native';
 import Fundo from "../images/fundos/Fundo.png"
-import { ImageBackground, TouchableOpacity } from "react-native-web";
+import { ImageBackground, TouchableOpacity } from "react-native";
 import AuthService from "../Services/AuthService";
 import Cama from '../images/icons/CamaCinza.png';
 import Chuveiro from '../images/icons/ChuveiroCinza.png';

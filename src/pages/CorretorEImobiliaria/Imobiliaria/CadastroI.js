@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View, Image } from 'react-native';
-import { ImageBackground, TextInput, TouchableOpacity } from 'react-native-web';
+import { ImageBackground, TextInput, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import CheckBox from '../../../components/checkbox/checkbox';
 import CepInput from '../../../components/cepInput/cepInput';

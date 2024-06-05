@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { View, StyleSheet, Image, TextInput } from "react-native-web";
+import { View, StyleSheet, Image, TextInput } from "react-native";
 
 import { FontAwesome, Ionicons } from '@expo/vector-icons'
 

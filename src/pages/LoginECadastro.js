@@ -1,7 +1,7 @@
 
 import { StatusBar } from 'expo-status-bar';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { ImageBackground, TouchableOpacity } from 'react-native-web';
+import { ImageBackground, TouchableOpacity } from 'react-native';
 import Botao from '../components/Botao';
 import { useNavigation } from '@react-navigation/native';
 import AuthService from '../Services/AuthService';

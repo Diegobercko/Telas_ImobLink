@@ -5,7 +5,7 @@ import PortaImagem from '../components/portaImage/portaImagem.js';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import ModalTelaPrincipal from '../components/modalTelaPrincipal/ModalTelaPrincipal.js';
 import Mais from '../images/icons/Mais.svg';
-import { ScrollView } from 'react-native-web';
+import { ScrollView } from 'react-native';
 import ApiService from '../Services/ApiService.js';
 
 const EditarImovel = () => {

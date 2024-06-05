@@ -2,7 +2,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View, Image } from 'react-native';
-import { ImageBackground, TouchableOpacity } from 'react-native-web';
+import { ImageBackground, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import OpcaoCadastro from '../components/opcaoCadastro/OpcaoCadastro';
 import LogoCompleto from '../assets/Svg/Logo/Logo_Full';

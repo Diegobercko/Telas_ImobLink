@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState, React } from 'react';
 import { ImageBackground, Pressable, StyleSheet, Text, View, Image } from 'react-native';
-import { TouchableOpacity } from 'react-native-web';
+import { TouchableOpacity } from 'react-native';
 import AppIntroSlider from 'react-native-app-intro-slider';
 
 

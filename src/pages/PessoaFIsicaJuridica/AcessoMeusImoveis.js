@@ -1,7 +1,7 @@
 
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet } from 'react-native';
-import { ImageBackground, TextInput, TouchableOpacity, View, Text } from 'react-native-web';
+import { ImageBackground, TextInput, TouchableOpacity, View, Text } from 'react-native';
 import { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import CardImovel from '../../components/cardImovel/CardImovel'
@@ -12,7 +12,7 @@ import ModalTelaPrincipal from '../../components/modalTelaPrincipal/ModalTelaPri
 import BarraDePesquisa from '../../components/Pesquisa/BarraDePesquisa';
 import ButtonVoltar from '../../assets/Svg/Buttons/Bnt_Voltar';
 import LogoBackground from '../../assets/Svg/Logo/Logobackground';
-import MeusImoveis from '../../Components/Modal/Dados_Meus_Imoveis'
+
 
 const AcessoMeusImoveis = () => {
   const navigation = useNavigation();
@@ -74,7 +74,6 @@ const AcessoMeusImoveis = () => {
 
         <Text style={styles.titulo}>Meus Imoveis</Text>
 
-        <MeusImoveis/>
       </ImageBackground>
 
 
@@ -110,11 +109,6 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     textAlign: 'center',
     marginTop: 50
-
-  },
-  portaPesquisa: {
-    position: 'Fixed',
-    top: 250
 
   }
 })

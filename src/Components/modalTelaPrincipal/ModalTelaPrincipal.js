@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Animated, Easing } from "react-native";
-import { Modal, View, StyleSheet, Text, Pressable } from "react-native-web";
+import { Modal, View, StyleSheet, Text, Pressable } from "react-native";
 import AuthService from "../../Services/AuthService";
 import { useNavigation } from '@react-navigation/native';
 

@@ -1,6 +1,6 @@
 import { View, Text, Touchable, StyleSheet } from 'react-native'
 import React from 'react'
-import { TouchableOpacity } from 'react-native-web'
+import { TouchableOpacity } from 'react-native'
 
 const Botao = ({ labelbutton, aoclicar }) => {
   return (

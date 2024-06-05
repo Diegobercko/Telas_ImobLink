@@ -1,7 +1,7 @@
 
 import { View, Text, Touchable, StyleSheet, Image, Pressable } from 'react-native'
 import React from 'react'
-import { TouchableOpacity } from 'react-native-web'
+import { TouchableOpacity } from 'react-native'
 import imgDisponivel from '../../images/icons/cardImovel/ativado.jpg';
 import imgIndisponivel from '../../images/icons/cardImovel/desativado.jpg';
 import { useNavigation } from '@react-navigation/native';
