@@ -6,7 +6,6 @@ import Duvidas from './pages/Duvidas';
 import CadastrarImovel from './pages/PessoaFIsicaJuridica/CadastrarImovel';
 import AcessoMeusImoveis from './pages/PessoaFIsicaJuridica/AcessoMeusImoveis';
 
-import Sobre from '../src/pages/Sobre'
 import ButtonNewImovel from './Components/Buttons/Button_New_Imovel';
 
 import { Entypo, MaterialCommunityIcons, FontAwesome5 } from '@expo/vector-icons'

@@ -2137,7 +2137,7 @@
   resolved "https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.72.1.tgz"
   integrity sha512-cRPZh2rBswFnGt5X5EUEPs0r+pAsXxYsifv/fgy9ZLQokuT52bPH+9xjDR+7TafRua5CttGW83wP4TntRcWNDA==
 
-"@react-native/normalize-color@^2.0.0", "@react-native/normalize-color@^2.1.0":
+"@react-native/normalize-color@^2.0.0":
   version "2.1.0"
   resolved "https://registry.npmjs.org/@react-native/normalize-color/-/normalize-color-2.1.0.tgz"
   integrity sha512-Z1jQI2NpdFJCVgpY+8Dq/Bt3d+YUi1928Q+/CZm/oh66fzM0RUl54vvuXlPJKybH4pdCZey1eDTPaLHkMPNgWA==
@@ -2146,6 +2146,11 @@
   version "0.72.0"
   resolved "https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.72.0.tgz"
   integrity sha512-285lfdqSXaqKuBbbtP9qL2tDrfxdOFtIMvkKadtleRQkdOxx+uzGvFr82KHmc/sSiMtfXGp7JnFYWVh4sFl7Yw==
+
+"@react-native/normalize-colors@^0.74.1":
+  version "0.74.84"
+  resolved "https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.74.84.tgz"
+  integrity sha512-Y5W6x8cC5RuakUcTVUFNAIhUZ/tYpuqHZlRBoAuakrTwVuoNHXfQki8lj1KsYU7rW6e3VWgdEx33AfOQpdNp6A==
 
 "@react-native/virtualized-lists@^0.72.8":
   version "0.72.8"
@@ -3176,6 +3181,11 @@ babel-plugin-polyfill-regenerator@^0.5.5:
   integrity sha512-OJGYZlhLqBh2DDHeqAxWB1XIvr49CxiJ2gIt61/PU55CQK4Z58OzMqjDe1zwQdQk+rBYsRc+1rJmdajM3gimHg==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.5.0"
+
+babel-plugin-react-native-web@^0.19.12:
+  version "0.19.12"
+  resolved "https://registry.npmjs.org/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.19.12.tgz"
+  integrity sha512-eYZ4+P6jNcB37lObWIg0pUbi7+3PKoU1Oie2j0C8UF3cXyXoR74tO2NBjI/FORb2LJyItJZEAmjU5pSaJYEL1w==
 
 babel-plugin-react-native@~0.18.10:
   version "0.18.12"
@@ -5800,9 +5810,9 @@ human-signals@^2.1.0:
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
 hyphenate-style-name@^1.0.3:
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz"
-  integrity sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.5.tgz"
+  integrity sha512-fedL7PRwmeVkgyhu9hLeTBaI6wcGk7JGJswdaRsa5aUbkXI1kr1xZwTPBtaYPpwf56878iDek6VbVnuWMebJmw==
 
 i@^0.3.7:
   version "0.3.7"
@@ -8971,13 +8981,13 @@ react-native-vector-icons@^8.1.0:
     prop-types "^15.7.2"
     yargs "^16.1.1"
 
-react-native@~0.19.6:
-  version "0.19.10"
-  resolved "https://registry.npmjs.org/react-native/-/react-native-0.19.10.tgz"
-  integrity sha512-IQoHiTQq8egBCVVwmTrYcFLgEFyb4LMZYEktHn4k22JMk9+QTCEz5WTfvr+jdNoeqj/7rtE81xgowKbfGO74qg==
+react-native-web@~0.19.6:
+  version "0.19.12"
+  resolved "https://registry.npmjs.org/react-native-web/-/react-native-web-0.19.12.tgz"
+  integrity sha512-o2T0oztoVDQjztt4YksO9S1XRjoH/AqcSvifgWLrPJgGVbMWsfhILgl6lfUdEamVZzZSVV/2gqDVMAk/qq7mZw==
   dependencies:
     "@babel/runtime" "^7.18.6"
-    "@react-native/normalize-color" "^2.1.0"
+    "@react-native/normalize-colors" "^0.74.1"
     fbjs "^3.0.4"
     inline-style-prefixer "^6.0.1"
     memoize-one "^6.0.0"
